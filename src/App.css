@@ -5,5 +5,11 @@
 .main{
   display: flex;
   justify-content: center;
-  margin: 20px;
+}
+.wrapper{
+  display: flex;
+  height: 100vh;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-direction: column ;
 }

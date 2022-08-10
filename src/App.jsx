@@ -3,6 +3,7 @@ import './App.css';
 import Button from './components/Button';
 import Header from './components/Header';
 import Input from './components/Input';
+import Footer from './components/Footer';
 
 function App() {
   const alertInputValue = () => { 
@@ -17,6 +18,7 @@ function App() {
         <Button onClick={alertInputValue}>Alert input value!</Button>
         <Input placeholder='type here!' id='inputForButton'></Input>
       </div>
+      <Footer>idk what to add here. Just some text</Footer>
     </div>
   );
 }
